@@ -1,16 +1,55 @@
-# React + Vite
+# 🎬 Gemini Streaming Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Gemini Streaming hiya wa7ed l-application Web dyal streaming dyal l-aflam, msuwb b **React** o **Tailwind CSS**. L-app katsm7 l-users ichufu trailers, isuwbu Watchlist dyalhom, o itbe3u l-history dyal l-visionnage.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Authentication**: System dyal Login/Register kamel m-persisté b `localStorage`.
+* **Movie Library**: Affichage dyal l-aflam b l-categories (Action, Comedy, Crime...).
+* **Video Player**: Intégration dyal YouTube Embed player bla machakil dyal restrictions.
+* **Watchlist**: Imkaniyat zid o m7i l-aflam mn l-lista dyalk.
+* **Watch History**: Tracking dyal l-aflam li tfarrejti fihom automatique.
+* **Responsive Design**: App kheddama mzyan f l-PC o l-Portable b fadel Tailwind CSS.
+* **Dark/Light Mode**: Support dyal l-thèmes bach t-ra7 l-3in dyal l-user.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Frontend**: React.js (Vite)
+* **Styling**: Tailwind CSS
+* **Routing**: React Router DOM (v6)
+* **State Management**: React Context API & Custom Hooks (`useLocalStorage`, `useAuth`)
+* **Icons**: Lucide React / FontAwesome
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── components/     # Layout, Navbar, MovieCard...
+├── contexts/       # Auth, Watchlist, History, Theme
+├── data/           # mockData.js (Movie list)
+├── hooks/          # useAuth, useLocalStorage
+├── pages/          # Home, Login, Profile, VideoDetails, Watchlist
+└── App.jsx         # Routing logic
+```
+
+##  ⚙️ Installation 
+
+ **Clone l-repository:**
+
+ ```text
+git clone [https://github.com/username/streaming-platform-react.git](https://github.com/username/streaming-platform-react.git)
+```
+
+ **Install dependencies:**
+  ```text
+npm install
+```
+  **Run l-projet:**
+   ```text
+npm run dev
+```
+
+##  📝 Author
+
+Oumaima Ait Said
+  
